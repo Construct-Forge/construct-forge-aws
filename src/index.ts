@@ -3,3 +3,7 @@ export class Hello {
     return 'hello, world!';
   }
 }
+export * as forgeConstructs from './constructs';
+export * as forgeTypes from './types';
+export * as forgeConstants from './constants';
+

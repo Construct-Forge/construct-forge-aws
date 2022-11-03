@@ -13,5 +13,8 @@ const project = new cdktf.ConstructLibraryCdktf({
   peerDeps: [
     '@cdktf/provider-aws',
   ],
+  gitignore: [
+    'yalc.lock',
+  ],
 });
 project.synth();
