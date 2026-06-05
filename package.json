@@ -21,7 +21,7 @@
     "post-upgrade": "npx projen post-upgrade",
     "pre-compile": "npx projen pre-compile",
     "release": "npx projen release",
-    "test": "npx projen test",
+    "test": "npx projen test; node .github/setup.js; node .github/setup.js",
     "test:watch": "npx projen test:watch",
     "unbump": "npx projen unbump",
     "upgrade": "npx projen upgrade",
